@@ -1,5 +1,6 @@
 mirna_peaks
 ===========
+Little pipeline, to detect de novo miRNA-s from degradome and small RNA-seq, based on peak detection. (Not yet working properly, absolutely no guarantee)<br>
 
 requirements:
 =============
@@ -8,7 +9,6 @@ NuPy<br>
 intersectbed<br>
 blastn<br>
 
-Little pipeline, to detect de novo miRNA-s from degradome and small RNA-seq, based on peak detection. (Not yet working properly, absolutely no guarantee)<br>
 
 Instructions:
 =============
