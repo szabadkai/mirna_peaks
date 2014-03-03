@@ -1,9 +1,17 @@
 mirna_peaks
 ===========
 
+requirements:
+=============
+Python<br>
+NuPy<br>
+intersectbed<br>
+blastn<br>
+
 Little pipeline, to detect de novo miRNA-s from degradome and small RNA-seq, based on peak detection. (Not yet working properly, absolutely no guarantee)<br>
 
-Instructions:<br>
+Instructions:
+=============
 1. Trimm your small RNAs  with (cutadapt, reaper, ect).<br>
 2. Detect peaks with peak_detect.py.<br>
 3. Use intersectbed to discover the intersection of your two libraries.<br>
